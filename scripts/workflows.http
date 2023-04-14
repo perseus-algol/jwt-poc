@@ -1,0 +1,63 @@
+### 
+
+POST http://localhost:4000/createUser
+Content-Type: application/json
+
+{
+  "name": "Joe",
+  "password": "passJoe"
+}
+
+### 
+
+POST http://localhost:4000/createUser
+Content-Type: application/json
+
+{
+  "name": "Bob",
+  "password": "passBob"
+}
+
+### 
+
+POST http://localhost:4000/createUser
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "password": "passAlice"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "name": "Joe",
+  "password": "passJoe"
+}
+
+### 
+
+POST http://localhost:4000/refreshToken
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiSm9lIiwiaWF0IjoxNjgxNDg5NTYwLCJleHAiOjE2ODE0OTA3NjB9.rh6dKmDV7NKSfhT3eidLzhV5pOxqbBm1IZZYBFHH1cY"
+}
+
+###
+
+GET http://localhost:5000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiSm9lIiwiaWF0IjoxNjgxNDkwMDMyLCJleHAiOjE2ODE0OTA5MzJ9.1D02AwYm9sCjNVLeYEzutbhjamjfWZaSf5pjN9qg0Ps
+
+### 
+
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODE0ODk2MjUsImV4cCI6MTY4MTQ5MDUyNX0.6yzGCJgBuRcIWbxVdQtOiv29tC4-to6p7Cgx9Agqkhk"
+}
+

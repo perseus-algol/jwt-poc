@@ -1,0 +1,2 @@
+- [How to implement JWT authentication in Express.js app ?](https://www.geeksforgeeks.org/how-to-implement-jwt-authentication-in-express-js-app/)
+- [How To Use JSON Web Tokens (JWTs) in Express.js](https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs) tutorial.

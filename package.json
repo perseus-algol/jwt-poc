@@ -7,7 +7,9 @@
     "build": "rimraf dist && tsc",
     "auth": "ts-node-dev --respawn ./src/authServer.ts",
     "api": "ts-node-dev --respawn ./src/api.ts",
-    "token": "node src/generateAccessToken.js"
+    "jwks": "ts-node-dev --respawn ./src/jwks.ts",
+    "token": "node scripts/newToken.js",
+    "newJwt": "ts-node ./scripts/createJwt.ts"
   },
   "keywords": [],
   "author": "",

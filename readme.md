@@ -1,2 +1,5 @@
 - [How to implement JWT authentication in Express.js app ?](https://www.geeksforgeeks.org/how-to-implement-jwt-authentication-in-express-js-app/)
 - [How To Use JSON Web Tokens (JWTs) in Express.js](https://www.digitalocean.com/community/tutorials/nodejs-jwt-expressjs) tutorial.
+- [JSON Web Tokens (JWT) Demystified](https://hackernoon.com/json-web-tokens-jwt-demystified-f7e202249640)
+- [RS256 vs HS256: What's The Difference?](https://auth0.com/blog/rs256-vs-hs256-whats-the-difference/)
+- https://jwt.io
